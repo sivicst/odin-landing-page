@@ -34,3 +34,51 @@ a.header-link {
     font-size: 18px;
     color: #e5e7eb;
 }
+
+.section {
+    height: 400px;
+}
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+}
+
+.hero-left {
+    width: 500px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.sign-up-btn {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 8px 30px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.hero-right {
+    height: 225px;
+    width: 500px;
+    background-color: rgb(146, 146, 146);
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
