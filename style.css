@@ -76,9 +76,73 @@ a.header-link {
 .hero-right {
     height: 225px;
     width: 500px;
-    background-color: rgb(146, 146, 146);
+    background-color: rgb(122, 122, 122);
     color: #e5e7eb;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-img {
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+    height: 170px;
+    width: 170px;
+    margin-bottom: 10px;
+}
+
+.cards {
+    display: flex;
+    gap: 48px;
+}
+
+.card {
+    width: 170px;
+}
+
+.info-main-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-bottom: 36px;
+}
+
+.info-text {
+    color: rgb(122, 122, 122);
+    text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-cointainer{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.quote-author {
+    margin-left: auto;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #1f2937;
 }
